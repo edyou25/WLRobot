@@ -30,3 +30,19 @@ http://127.0.0.1:8000
 ```
 
 说明：文档流程统一使用现有 `conda` 环境 `ielts-env`，不在仓库内创建额外 Python 虚拟环境。
+
+### GitHub Pages 自动部署
+
+仓库已配置 GitHub Actions 工作流：
+
+```text
+.github/workflows/pages.yml
+```
+
+触发条件：
+
+```text
+push 到 main 分支
+```
+
+注意：GitHub 仓库设置中的 Pages Source 需要改为 `GitHub Actions`，不要继续使用 `Deploy from a branch /docs`，因为当前 `docs/` 存放的是 Sphinx 源文件，不是最终 HTML。
