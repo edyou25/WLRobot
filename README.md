@@ -45,4 +45,4 @@ http://127.0.0.1:8000
 push 到 main 分支
 ```
 
-注意：GitHub 仓库设置中的 Pages Source 需要改为 `GitHub Actions`，不要继续使用 `Deploy from a branch /docs`，因为当前 `docs/` 存放的是 Sphinx 源文件，不是最终 HTML。
+注意：GitHub 仓库设置中的 Pages Source 需要改为 `GitHub Actions`，不要继续使用 `Deploy from a branch /docs`，因为当前 `docs/` 存放的是 Sphinx 源文件，不是最终 HTML。 
