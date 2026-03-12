@@ -4,7 +4,7 @@
 定位
 ----
 
-WERoot 是一个基于 ROS 的轮足机器人实验系统，核心包含：
+WLRobot 是一个基于 ROS 的轮足机器人实验系统，核心包含：
 
 1. 机载控制（``controller``）
 2. 底层串口桥接（``serial_proxy``）

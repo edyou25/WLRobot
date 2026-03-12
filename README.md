@@ -1,6 +1,6 @@
 # WLRobot
 
-## WERoot 文档（Sphinx + Read the Docs Theme）
+## WLRobot 文档（Sphinx + Read the Docs Theme）
 
 文档源码位于 `docs/source`，已配置 `sphinx_rtd_theme`。
 
