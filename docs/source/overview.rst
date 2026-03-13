@@ -20,23 +20,23 @@ WLRobot 是一个基于 ROS 的轮足机器人实验系统，核心包含：
 .. code-block:: text
 
    Publications:
-    * /debug_plot [std_msgs/Float32MultiArray]
-    * /force_disable [std_msgs/Bool]
-    * /led [std_msgs/UInt8MultiArray]
-    * /send_heartbeat [std_msgs/Empty]
-    * /state/body_height [std_msgs/Float64]
-    * /state/var [std_msgs/Float32MultiArray]
-    * /state/velocity [geometry_msgs/Twist]
-    * /torque_command [std_msgs/Float32MultiArray]
+     * /debug_plot [std_msgs/Float32MultiArray]
+     * /force_disable [std_msgs/Bool]
+     * /led [std_msgs/UInt8MultiArray]
+     * /send_heartbeat [std_msgs/Empty]
+     * /state/body_height [std_msgs/Float64]
+     * /state/var [std_msgs/Float32MultiArray]
+     * /state/velocity [geometry_msgs/Twist]
+     * /torque_command [std_msgs/Float32MultiArray]
 
    Subscriptions:
-    * /cmd_vel
-    * /current_slope
-    * /imu [sensor_msgs/Imu]
-    * /joint_state [sensor_msgs/JointState]
-    * /joy [sensor_msgs/Joy]
-   * /sbus [std_msgs/Float32MultiArray]
-   * /trigger_jump
+     * /cmd_vel
+     * /current_slope
+     * /imu [sensor_msgs/Imu]
+     * /joint_state [sensor_msgs/JointState]
+     * /joy [sensor_msgs/Joy]
+     * /sbus [std_msgs/Float32MultiArray]
+     * /trigger_jump
 
 职责说明：
 
@@ -50,19 +50,19 @@ WLRobot 是一个基于 ROS 的轮足机器人实验系统，核心包含：
 .. code-block:: text
 
    Publications:
-    * /imu [sensor_msgs/Imu]
-    * /joint_state [sensor_msgs/JointState]
-    * /latency_test_recv [std_msgs/Empty]
-    * /power_voltage [std_msgs/Float32]
-    * /sbus [std_msgs/Float32MultiArray]
+     * /imu [sensor_msgs/Imu]
+     * /joint_state [sensor_msgs/JointState]
+     * /latency_test_recv [std_msgs/Empty]
+     * /power_voltage [std_msgs/Float32]
+     * /sbus [std_msgs/Float32MultiArray]
 
    Subscriptions:
-    * /force_disable [std_msgs/Bool]
-    * /latency_test_send
-   * /led [std_msgs/UInt8MultiArray]
-   * /reset_driver
-   * /send_heartbeat [std_msgs/Empty]
-   * /torque_command [std_msgs/Float32MultiArray]
+     * /force_disable [std_msgs/Bool]
+     * /latency_test_send
+     * /led [std_msgs/UInt8MultiArray]
+     * /reset_driver
+     * /send_heartbeat [std_msgs/Empty]
+     * /torque_command [std_msgs/Float32MultiArray]
 
 职责说明：
 
