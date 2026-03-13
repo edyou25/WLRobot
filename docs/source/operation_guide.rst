@@ -30,13 +30,19 @@
 
    roslaunch <your_pkg> controller.launch
 
-4. 可选：启动导航栈（``move_base``）：
+4. 可选：启动监控客户端（``wl_client``）：
+
+.. code-block:: bash
+
+   roslaunch wl_client monitor.launch
+
+5. 可选：启动导航栈（``move_base``）：
 
 .. code-block:: bash
 
    roslaunch <your_nav_pkg> move_base.launch
 
-5. 终端检查关键话题：
+6. 终端检查关键话题：
 
 .. code-block:: bash
 
@@ -67,4 +73,3 @@
 1. 首次上电调试时保持手持遥控，优先验证急停通道。
 2. 开环测试时，轮腿应离地或加机械限位。
 3. 记录每次参数变更（阈值、增益、模式切换策略）并版本化。
-

@@ -16,7 +16,7 @@ WLRobot 使用说明
 
    overview
    ros_interfaces
+   wl_client
    operation_guide
    hardware_budget
    faq
-
