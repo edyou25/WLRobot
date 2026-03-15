@@ -47,16 +47,13 @@ SBUS 遥控映射
 
 摇杆通道（``ch0`` 到 ``ch3``）：
 
-.. figure:: assets/ch0-3.jpg
+.. figure:: assets/ch0-3.png
    :alt: RC stick channels ch0 to ch3
    :width: 80%
    :align: center
 
    摇杆通道示意。右摇杆对应 ``ch0`` / ``ch1``，左摇杆对应 ``ch2`` / ``ch3``。
 
-.. note::
-
-   ``ch0-3.jpg`` 中左摇杆横向位置的红字看起来标成了 ``ch4``，但结合当前控制代码与通道总数，这里应按 ``ch2`` 理解。
 
 开关与拨钮通道（``ch4`` 到 ``ch9``）：
 
