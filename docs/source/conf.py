@@ -16,6 +16,7 @@ language = "zh_CN"
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
+html_extra_path = ["assets/wl.mp4"]
 html_title = "WLRobot 使用说明"
 html_theme_options = {
     "navigation_depth": 4,
@@ -25,4 +26,3 @@ html_theme_options = {
 
 autosectionlabel_prefix_document = True
 todo_include_todos = False
-
