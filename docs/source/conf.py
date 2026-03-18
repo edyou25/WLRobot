@@ -7,6 +7,7 @@ release = "0.1.0"
 
 extensions = [
     "sphinx.ext.autosectionlabel",
+    "sphinx.ext.mathjax",
     "sphinx.ext.todo",
 ]
 
