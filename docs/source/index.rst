@@ -21,7 +21,6 @@ WLRobot 使用说明
         </video>
       </div>
 
-如需单独查看文件，可直接打开 `演示视频 <wl.mp4>`_。
 
 目录
 ----
@@ -31,6 +30,7 @@ WLRobot 使用说明
    :caption: 内容导航
 
    overview
+   paper_adaptive_wheel_legged_biped
    ros_interfaces
    wl_client
    operation_guide
